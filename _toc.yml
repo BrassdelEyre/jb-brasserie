@@ -1,0 +1,50 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts: 
+  - caption: Venir Brasser
+    chapters:
+    - file: Brassage/Brassage_Main
+    - file: Brassage/Venir-brasser
+  - caption: Espace débutant
+    chapters:    
+    - file: Brassage/Debutants/Debutants_Main
+      sections:
+      - file: Brassage/Debutants/Tutos/Tuto-Biere
+      - file: Brassage/Debutants/Tutos/Tuto-Etapes
+  - caption: Procédures / Déroulement
+    chapters:  
+    - file: Brassage/Procedure/Procedure_main
+    - file: Brassage/Procedure/Preparation/Preparation_Main
+      sections:
+      - file: Brassage/Procedure/Preparation/Recette            
+    - file: Brassage/Procedure/Brassage/Brassage_Main
+      sections:
+      - file: Brassage/Procedure/Brassage/Empatage
+      - file: Brassage/Procedure/Brassage/Ebullition
+      - file: Brassage/Procedure/Brassage/Refroidissement
+      - file: Brassage/Procedure/Brassage/Fermentation-primaire
+    - file: Brassage/Procedure/Embouteillage/Embouteillage_Main
+      sections:
+      - file: Brassage/Procedure/Embouteillage/Lavage-bouteilles
+      - file: Brassage/Procedure/Embouteillage/Preparation
+      - file: Brassage/Procedure/Embouteillage/Sucrage
+      - file: Brassage/Procedure/Embouteillage/Embouteillage
+      - file: Brassage/Procedure/Embouteillage/Nettoyage-Rangement
+  - caption: Espace Brasseurs
+    chapters: 
+    - file: Brassage/Espace_Brasseurs/Outils/Outils
+      sections:
+      - file: Brassage/Espace_Brasseurs/Ingredients/Stock-ingredients
+      - file: Brassage/Espace_Brasseurs/Outils/Tracabilite-Brassage
+      - file: Brassage/Espace_Brasseurs/Outils/Cout-Revient
+  - caption: 📦 Annexes
+    chapters:
+    - file: Annex/References/bibliography
+
+
+    
+
+
